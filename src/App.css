@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– login –––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.login-container {
+  width: 40%;
+  margin: 8rem auto;
+  border: black solid 1px;
+  border-radius: 2rem;
+  padding: 1.5rem;
+}
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––navbar–––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  padding: 0;
+  margin: 0;
+}
+
+.img-nav {
+  max-height: 130px;
+}
+
+.nav-botom {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: lightblue;
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– sideBar –––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.sideBar-container {
+  background-color: blue;
+  width: 20%;
+  height: 75vh;
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– footer –––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: lightblue;
+  height: 2.3rem;
+}
+
+.footer-img {
+  max-width: 20px;
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– pages –––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.x {
+  display: flex;
+}
+
+.firstPage-container {
+  width: 80%;
+  height: 75vh;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+}
+
+.table {
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+.buttons-page {
+  display: flex;
+  gap: 2px;
+  margin: 0 auto;
+
+  /* position: absolute;
+  bottom: 100px;
+  left: 40%; */
+}
+
+.filter {
+  width: 200px;
+  height: 3rem;
+}
+
+#filter-user-name {
+  border: black solid 1px;
+  border-radius: 2rem;
+  padding: 5px 10px 5px 15px;
+}
+
+.input-container {
+  margin-left: 6rem;
+}
+
+.main-page-container {
+  width: 100%;
+}
+
+/* –––––––––––––––––––––––––––––––––––––– Default 3 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.form-d3-container {
+  width: 80%;
+  height: 75vh;
+  padding: 6rem;
+}
+
+.user-from {
+  width: 50%;
+}
+
+.mb-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+.buttons-container > button {
+  border-radius: 2rem;
+}
+
+.cve-com-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 1rem;
+}
+
+#cve-com {
+  width: 85%;
+  /* height: 2.3rem; */
+  padding: 6px;
+  border: rgb(186, 186, 186) solid 0.3px;
+
+}
